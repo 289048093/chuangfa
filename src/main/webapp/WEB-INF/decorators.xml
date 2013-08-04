@@ -1,0 +1,10 @@
+<decorators defaultdir="/decorators">
+	<decorator name="common" page="common.jsp">
+		<pattern>/*.jsp</pattern>
+	</decorator>
+	<excludes>
+		<pattern>/login.jsp*</pattern>
+		<pattern>/jump.jsp*</pattern>
+		<pattern>/error/*.jsp*</pattern>
+	</excludes>
+</decorators>

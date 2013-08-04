@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<!-- 文件名建议 改成项目真实名字 -->
+<chuangfa>
+	<!-- 多个半角逗号分割 ，支持*通配符-->
+	<authUrls>
+		*update*,
+		*insert*,
+		*delete*
+	</authUrls>
+	<chuangfaHome></chuangfaHome>
+	<dbHome>db</dbHome>
+	<userDataHome>userData</userDataHome>
+	<menu>
+		index:index.jsp;
+		product:productManager/product!query.action;
+		comdesc:comdescManager/comdesc!query.action;
+		news:newsManager/news!query.action;
+		forjob:jobsManager/jobs!query.action;
+		contactour:contactOurManager/contactOur!query.action
+	</menu>
+	<topProductSize>20</topProductSize>
+	<topNewsSize>10</topNewsSize>
+	<proHeadPicWidth>90</proHeadPicWidth>
+	<proHeadPicHeight>90</proHeadPicHeight>
+	<proRealPicWidth>511</proRealPicWidth>
+	<proRealPicHeight>342</proRealPicHeight>
+</chuangfa>
