@@ -19,15 +19,12 @@ public class ContactOurEntityTest extends BaseTest {
         tels.add("111111");
         tels.add("22222222");
         tels.add("3333333");
-        coe.setTelphones(tels);
-        coe.setBusinessPhone("businessPhone:123456");
         ProjectUtil.writeObject2File(coe, ContactOurEntity.class);
     }
     
     @Test
     public void readFileEntityTest() throws Exception {
         ContactOurEntity coe = (ContactOurEntity) ProjectUtil.getObjectFromFile(ContactOurEntity.class);
-        System.out.println(coe.getTelphones()+","+coe.getBusinessPhone());
         
     }
 }
